@@ -66,7 +66,7 @@ const calcularQtdeVolume = () => {
     return;
   }
 
-  const idPessoa = localStorage.getItem("userID") || "215381"; // Caso o cliente não esteja cadastrado, usa ID fixo consumidor final
+  const idPessoa = localStorage.getItem("userID") || "222676"; // Caso o cliente não esteja cadastrado, usa ID fixo consumidor final
         
     try {
       const itens = produtos.map((produto) => {
@@ -97,7 +97,7 @@ const calcularQtdeVolume = () => {
           Empresa: "11",
           Token: "6OMAKWSNURLMJ7V99GGM",
           IDPessoa: idPessoa,
-          IDVendedor: "140093",
+          IDVendedor: "1535",
           IDTransp: "",
           LocalVenda: "1",
           TipoMovim: "1",
@@ -305,7 +305,7 @@ const calcularQtdeVolume = () => {
               />
               Boleto
             </label>
-            {idPessoa !== "215381" && (
+            {idPessoa !== "222676" && (
           <div>
             <label>
               <input
